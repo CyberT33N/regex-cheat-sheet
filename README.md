@@ -2,7 +2,7 @@
 Regex Cheat Sheet with the most needed stuff..
 
 
-## Replace all white spaces & new lines
+## Replace all white spaces
 ```regex
 /\s\s+/g
 ```  
