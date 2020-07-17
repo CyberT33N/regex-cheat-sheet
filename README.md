@@ -6,3 +6,9 @@ Regex Cheat Sheet with the most needed stuff..
 ```regex
 /\s\s+/g
 ```  
+
+
+## Remove all special Characters
+```regex
+/[^a-zA-Z0-9 ]/g
+```  
