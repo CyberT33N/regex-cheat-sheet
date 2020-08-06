@@ -24,9 +24,9 @@ Regex Cheat Sheet with the most needed stuff..
 
 
 
-## Match space after specific amount of characters
+## Match space after specific amount of characters including new lines
 ```javascript
-/.{1,300}(\s|$)/gmi
+/^[\S\s]{1,200}( |$)/gmi
 ```  
 
 
