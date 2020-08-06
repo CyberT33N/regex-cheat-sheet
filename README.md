@@ -2,6 +2,15 @@
 Regex Cheat Sheet with the most needed stuff..
 
 
+## Match everything including new lines
+```javascript
+// method 1
+/[\S\s]/gmi
+
+// method 2
+/(?s:.)/gmi
+```
+
 ## Replace all white spaces
 ```javascript
 /\s\s+/gmi
