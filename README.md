@@ -2,6 +2,28 @@
 Regex Cheat Sheet with the most needed stuff..
 
 
+
+## Dynamic change regex
+```javascript
+let regex = /^[\S\s]{1,300}([a-z0-9?!] |$)/gmi;
+let trimmedString = $(this).html().match( regex );
+```
+
+
+
+<br />
+<br />
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
+
+
 ## Match everything including new lines
 ```javascript
 // method 1
