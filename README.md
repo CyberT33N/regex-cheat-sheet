@@ -22,6 +22,24 @@ let trimmedString = $(this).html().match( regex );
 <br />
 <br />
 
+# Numbers
+
+## match numbers with or without commas
+```javascript
+/\d+([\d,]?\d)*(\.\d+)?/gmi
+```
+
+
+<br />
+<br />
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
 
 
 ## Match everything including new lines
