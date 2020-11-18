@@ -3,6 +3,16 @@ Regex Cheat Sheet with the most needed stuff..
 
 
 
+
+
+## Match word with numbers and dash
+```javascript
+\/([a-zA-z0-9-]+).git$
+let regex = /([a-z0-9-]+)/gmi;
+```
+
+<br><br>
+
 ## Dynamic change regex
 ```javascript
 let regex = /^[\S\s]{1,300}([a-z0-9?!] |$)/gmi;
@@ -11,8 +21,7 @@ let trimmedString = $(this).html().match( regex );
 
 
 
-<br />
-<br />
+<br><br>
 
 
  _____________________________________________________
