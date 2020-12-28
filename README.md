@@ -7,8 +7,15 @@ Regex Cheat Sheet with the most needed stuff..
 
 ## Match word with numbers and dash
 ```javascript
-\/([a-zA-z0-9-]+).git$
 let regex = /([a-z0-9-]+)/gmi;
+```
+
+<br><br>
+
+## Match everything except specific character
+```javascript
+// match everything except =
+let regex = /[^=]*/gmi;
 ```
 
 <br><br>
