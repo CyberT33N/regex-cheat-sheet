@@ -77,6 +77,12 @@ let trimmedString = $(this).html().match( regex );
 /[^\s]+/gmi
 ```  
 
+## Check if string contains only one word
+```javascript
+/^\w+$/gmi
+```  
+
+
 
 
 
