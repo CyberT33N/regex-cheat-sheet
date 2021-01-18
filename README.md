@@ -72,6 +72,13 @@ let trimmedString = $(this).html().match( regex );
 /\s\s+/gmi
 ```  
 
+## Match everything without white space
+```javascript
+/[^\s]+/gmi
+```  
+
+
+
 
 ## Remove all special Characters
 ```javascript
