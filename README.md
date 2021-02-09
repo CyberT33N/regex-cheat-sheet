@@ -27,6 +27,16 @@ let regex = /amazonaws[.][^\.]+[.](gif|jpg|png|jpeg)/gmi;
 ```
 
 
+<br><br>
+
+## Match everything between/before/after specific character
+```javascript
+// amazonaws.com/anypath/1234/homer.gif
+let regex = /([^\/]+)/gmi;
+```
+
+
+
 
 <br><br>
 
