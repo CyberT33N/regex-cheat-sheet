@@ -20,6 +20,16 @@ let regex = /[^=]*/gmi;
 
 <br><br>
 
+## Match everything until specific character
+```javascript
+// amazonaws.com/anypath/1234/homer.gif
+let regex = /amazonaws[.][^\.]+[.](gif|jpg|png|jpeg)/gmi;
+```
+
+
+
+<br><br>
+
 ## Dynamic change regex
 ```javascript
 let regex = /^[\S\s]{1,300}([a-z0-9?!] |$)/gmi;
