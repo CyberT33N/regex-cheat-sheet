@@ -2,6 +2,14 @@
 Regex Cheat Sheet with the most needed stuff..
 
 
+## Match empty string
+- Imagine we have medium and medium_hd. This regex will match both
+```javascript
+const regex = /^(?![\s\S])/g;
+```
+
+<br><br>
+
 ## Match optional character
 - Imagine we have medium and medium_hd. This regex will match both
 ```javascript
