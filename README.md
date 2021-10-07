@@ -2,12 +2,18 @@
 Regex Cheat Sheet with the most needed stuff..
 
 
+## Match optional character
+- Imagine we have medium and medium_hd. This regex will match both
+```javascript
+const regex = /medium(_hd)?$/g;
+```
 
+<br><br>
 
 
 ## Match word with numbers and dash
 ```javascript
-let regex = /([a-z0-9-]+)/gmi;
+const regex = /([a-z0-9-]+)/gmi;
 ```
 
 <br><br>
@@ -15,7 +21,7 @@ let regex = /([a-z0-9-]+)/gmi;
 ## Match everything except specific character
 ```javascript
 // match everything except =
-let regex = /[^=]*/gmi;
+const regex = /[^=]*/gmi;
 ```
 
 <br><br>
@@ -23,7 +29,7 @@ let regex = /[^=]*/gmi;
 ## Match everything until specific character
 ```javascript
 // amazonaws.com/anypath/1234/homer.gif
-let regex = /amazonaws[.][^\.]+[.](gif|jpg|png|jpeg)/gmi;
+const regex = /amazonaws[.][^\.]+[.](gif|jpg|png|jpeg)/gmi;
 ```
 
 
@@ -32,7 +38,7 @@ let regex = /amazonaws[.][^\.]+[.](gif|jpg|png|jpeg)/gmi;
 ## Match everything between/before/after specific character
 ```javascript
 // amazonaws.com/anypath/1234/homer.gif
-let regex = /([^\/]+)/gmi;
+const regex = /([^\/]+)/gmi;
 ```
 
 
@@ -42,7 +48,7 @@ let regex = /([^\/]+)/gmi;
 
 ## Dynamic change regex
 ```javascript
-let regex = /^[\S\s]{1,300}([a-z0-9?!] |$)/gmi;
+const regex = /^[\S\s]{1,300}([a-z0-9?!] |$)/gmi;
 let trimmedString = $(this).html().match( regex );
 ```
 
