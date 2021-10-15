@@ -1,4 +1,4 @@
-e# regex-cheat-sheet
+regex-cheat-sheet
 Regex Cheat Sheet with the most needed stuff..
 
 
