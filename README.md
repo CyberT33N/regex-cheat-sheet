@@ -1,5 +1,20 @@
-# regex-cheat-sheet
+e# regex-cheat-sheet
 Regex Cheat Sheet with the most needed stuff..
+
+
+
+
+
+
+
+
+## Match specific character inside of brakets
+```javascript
+'.*[|].*'
+```
+
+<br><br>
+
 
 
 ## Match empty string
