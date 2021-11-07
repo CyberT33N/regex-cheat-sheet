@@ -8,9 +8,9 @@ Regex Cheat Sheet with the most needed stuff..
 
 
 
-## Match specific character inside of brakets
+## Match specific character inside of quotes
 ```javascript
-'.*[|].*'
+['"].*[|].*['"]
 ```
 
 <br><br>
