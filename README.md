@@ -3,9 +3,21 @@ Regex Cheat Sheet with the most needed stuff..
 
 
 
+## Match everything after first occurence
+```javascript
+// The following regular expression will return everything following the first occurrence of the character “a”.
+/a([\s\S]*)$/g
+```
 
+<br><br>
 
+## Match everything after last occurence
+```javascript
+// The following regular expression will return everything after the last occurrence of the letter “a”:
+/[^a]*$/g
+```
 
+<br><br>
 
 
 ## Match specific character inside of quotes
