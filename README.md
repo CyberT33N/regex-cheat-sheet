@@ -6,7 +6,7 @@ Regex Cheat Sheet with the most needed stuff..
 
 ## Multiple words
 ```
-if (npm_lifecycle_event.match(/integration-test/ && /unit-test/)) { }
+^.*(unit|integration)-test$
 ```
 
 
