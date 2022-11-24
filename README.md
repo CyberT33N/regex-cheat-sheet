@@ -3,6 +3,19 @@ Regex Cheat Sheet with the most needed stuff..
 
 
 
+
+## Multiple words
+```
+if (npm_lifecycle_event.match(/integration-test/ && /unit-test/)) { }
+```
+
+
+
+
+
+
+
+
 ## Match everything after first occurence
 ```javascript
 // The following regular expression will return everything following the first occurrence of the character “a”.
